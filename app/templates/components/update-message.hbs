@@ -1,0 +1,45 @@
+{{#if updateMessageForm}}
+<h4> Update <br> <img class="profile-pic" src="{{message.profile}}"> <br> Author: {{message.author}} <br> City: {{message.city}} <br> Additional quote: {{message.favourite_quote}} <br> Content: {{message.content}} <br> Question: {{message.question}} <br> <img class="image1" src={{message.image}}></h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="profile">Profile</label>
+        {{input value=profile id="profile" placeholder=message.profile}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" placeholder=message.author}}
+      </div>
+
+      <div class="form-group">
+        <label for="city">City</label>
+        {{input value=city id="city" placeholder=message.city}}
+      </div>
+
+      <div class="form-group">
+        <label for="favourite_quote">Additional quote</label>
+        {{input value=favourite_quote id="favourite_quote" placeholder=message.favourite_quote}}
+      </div>
+
+      <div class="form-group">
+        <label for="content">Content</label>
+        {{input value=content id="content" placeholder=message.content}}
+      </div>
+
+      <div class="form-group">
+        <label for="question">Question</label>
+        {{input value=question id="question" placeholder=message.question}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image" placeholder=message.image}}
+      </div>
+
+      <button {{action 'update' message}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updateMessageForm'}}>Update</button>
+{{/if}}

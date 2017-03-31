@@ -1,0 +1,45 @@
+{{#if addNewMessage}}
+  <h1>New Question</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="profile">Profile pic</label>
+        {{input value=profile id="profile"}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author"}}
+      </div>
+
+      <div class="form-group">
+        <label for="city">City</label>
+        {{input value=city id="city"}}
+      </div>
+
+      <div class="form-group">
+        <label for="favourite_quote">Additional quote</label>
+        {{input value=favourite_quote id="favourite_quote"}}
+      </div>
+
+      <div class="form-group">
+        <label for="content">Content</label>
+        {{input value=content id="content"}}
+      </div>
+
+      <div class="form-group">
+        <label for="question">Question</label>
+        {{input value=question id="question"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+    <button {{action 'saveMessage1'}}>Save</button>
+  </form>
+</div>   
+{{else}}
+  <button {{action 'messageFormShow'}}>New Question</button>
+{{/if}}

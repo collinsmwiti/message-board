@@ -1,5 +1,29 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<div class="jumbotron">
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <span class="span2">
+  <a class="navbar-brand" href="#"><img src="http://www.gwinnettpreprally.com/images/icon_message_board.jpg" width="50" height="50" alt=""></a>
+</span>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      <div class="home">
+      {{#link-to 'index'}}<a class="nav-link" href="">Home<span class="sr-only">(current)</span></a>{{/link-to}}
+      </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact">Contact Us</a>
+      </li>
+    </ul>
+    <form>
+      <span class="span1"><input type="button" value="Search" onclick="window.location.href='http://www.google.com'"></span>
+    </form>
+  </div>
+</nav>
+</div>
 {{outlet}}

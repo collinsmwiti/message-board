@@ -1,0 +1,75 @@
+{ "messages": [{
+  "profile": "assets/images/mutuma.jpg",
+  "no": 1,
+  "author": "Collins Mutuma",
+  "city": "Nairobi",
+  "favourite_quote": "Train hard or remain the same.",
+  "image": "http://themerkle.com/wp-content/uploads/2016/02/lending.jpg",
+  "content": "Education",
+  "question": "What can we do to get the highest profit at the lowest risk?"
+
+  }, {
+    "profile": "assets/images/Alex2.JPG",
+    "no": 2,
+    "author": "Alex Kinuthia",
+    "city": "Nairobi",
+    "favourite_quote": "In order to succeed, we must first believe that we can.",
+    "image": "http://www.relationship-economy.com/wp-content/uploads/2013/06/Corps.-vs.jpg",
+    "content": "Life",
+    "question": "What is the best shot you can do in order to succeed?"
+
+  }, {
+    "profile": "assets/images/Brian.JPG",
+    "no":3,
+    "author": "Brian Marete",
+    "city": "Nairobi",
+    "favourite_quote": "If life becomes hard on you, don't say WHY ME, but say TRY ME.",
+    "image": "https://www.whats-on-netflix.com/wp-content/uploads/2017/03/top-50-tv-series-770x433.jpg",
+    "content": "Entertainment",
+    "question": "Which is the best latest series?"
+    },{
+    "profile": "assets/images/Ephie.JPG",
+    "no":4,
+    "author": "Ephantus Muthunga",
+    "city": "Nairobi",
+    "favourite_quote": "Wake up with determination, go to bed with satisfaction.",
+    "image":"https://data4.origin.com/live/content/dam/originx/web/app/games/fifa/fifa-17/screenshots/fifa-17/FUT17keyart_pdp_screenhi_1920x1080_en_ww.jpg",
+    "content": "Fun",
+    "question": "Who has skills to compete with me in playing Fifa 17?"
+    },{
+    "profile": "assets/images/Al.JPG",
+    "no": 5,
+    "author": "Al Aganya",
+    "city": "Nairobi",
+    "favourite_quote": "Simply, be the best.",
+    "image": "http://telkomgaming.co.za/wp-content/uploads/2016/07/MK-XL-800x450.jpg",
+    "content": "Entertainment/Fun",
+    "question": "Who knows how to crack Mortal Kombat XL?"
+    },{
+    "profile": "assets/images/Kenneth.JPG",
+    "no":6,
+    "author": "Kenneth Gitere",
+    "city": "Nairobi",
+    "favourite_quote": "Goals and motivation equals success.",
+    "image":"http://travissimmons.net/wp-content/uploads/2014/09/simulation.jpg",
+    "content": "Science Fiction",
+    "question": "Are our lives been in simulation?"
+  }],
+  "reviews": [{
+    "profile": "assets/images/Dickson.JPG",
+    "author": "Dickson Muli",
+    "city": "Nairobi",
+    "content": "Fun",
+    "rating": 8,
+    "answer": "Bring it on! Bro!",
+    "image": "https://i.imgur.com/uR6G6a7.png"
+  }, {
+    "profile": "https://www.gamegrin.com/assets/Uploads/chuck-norris-header.jpg",
+    "author": "Chuck Norris",
+    "city": "Texas",
+    "content": "Life",
+    "rating": 8,
+    "answer": "Good question Alex. Opportunities don't happen, You create them.",
+    "image": "http://statusmind.com/images/2014/01/Life-Facebook-Status-30566-statusmind.com.jpg"
+  }]
+}
