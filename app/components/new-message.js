@@ -15,6 +15,8 @@ export default Ember.Component.extend({
         content: this.get('content'),
         question: this.get('question'),
         image: this.get('image'),
+        likes: 0,
+        dislikes: 0
       };
       this.set('addNewMessage', false);
       this.sendAction('saveMessage2', params);

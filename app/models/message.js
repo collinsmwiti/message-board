@@ -2,7 +2,7 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   profile: DS.attr(),
-  no: DS.attr(),
+  // no: DS.attr(),
   author: DS.attr(),
   city: DS.attr(),
   favourite_quote: DS.attr(),
@@ -11,5 +11,7 @@ export default DS.Model.extend({
   question: DS.attr(),
   reviews: DS.hasMany('review', {
     async: true
-  })
+  }),
+  likes: DS.attr(),
+  dislikes: DS.attr()
 });

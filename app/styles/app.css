@@ -6,8 +6,18 @@
 
 .reviews {
   font-family: 'Rancho', cursive;
-  font-size: 2em;
-  margin-left: 20px;
+  font-size: 30px;
+  /*margin-left: 20px;*/
+}
+
+.map {
+  margin-left: 300px;
+}
+
+.review {
+  border-bottom: 1px solid silver;
+  padding: 10px 0;
+  width: 33%;
 }
 
 .carousel {

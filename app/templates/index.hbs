@@ -34,19 +34,18 @@ We kindly hope you find exactly what you're looking for. Feel inspired and motiv
 <div class="man">
 <ul>
   {{#each model.messages as |message|}}
-   {{message-tile message=message}}
+    {{message-popularity message}}  {{message-tile message=message likeMessage="likeMessage" dislikeMessage="dislikeMessage"}}
   {{/each}}
 </ul>
 </div>
 <div class="new">
 {{new-message saveMessage2="saveMessage3"}}
 </div>
-<div class="reviews">
-  <h2>All Reviews</h2>
-  <ul>
+<h2>All Reviews</h2>
+<div class="reviews d-flex flex-wrap m-5">
     {{#each model.reviews as |review|}}
-    <li style="list-style-type:none"><img class="profile-pic" src="{{review.profile}}"> <br> Author: {{review.author}} <br> City: {{review.city}} <br> Content: {{review.content}} <br> Rating: {{review.rating}} <br> Answer: {{review.answer}} <br> <img class="image1" src="{{review.image}}">
-    </li>
+    <div class="review">
+      <img class="profile-pic" src="{{review.profile}}"> <br> Author: {{review.author}} <br> City: {{review.city}} <br> Content: {{review.content}} <br> Rating: {{review.rating}} <br> Answer: {{review.answer}} <br> <img class="image1" src="{{review.image}}">
+    </div>
     {{/each}}
-  </ul>
 </div>

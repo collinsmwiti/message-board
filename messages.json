@@ -1,5 +1,5 @@
 { "messages": [{
-  "profile": "assets/images/mutuma.jpg",
+  "profile": "http://i.imgur.com/3GrShJo.jpg",
   "no": 1,
   "author": "Collins Mutuma",
   "city": "Nairobi",
@@ -9,7 +9,7 @@
   "question": "What can we do to get the highest profit at the lowest risk?"
 
   }, {
-    "profile": "assets/images/Alex2.JPG",
+    "profile": "http://i.imgur.com/Fh5JkaL.jpg",
     "no": 2,
     "author": "Alex Kinuthia",
     "city": "Nairobi",
@@ -19,7 +19,7 @@
     "question": "What is the best shot you can do in order to succeed?"
 
   }, {
-    "profile": "assets/images/Brian.JPG",
+    "profile": "http://i.imgur.com/TveilKb.jpg",
     "no":3,
     "author": "Brian Marete",
     "city": "Nairobi",
@@ -28,7 +28,7 @@
     "content": "Entertainment",
     "question": "Which is the best latest series?"
     },{
-    "profile": "assets/images/Ephie.JPG",
+    "profile": "http://i.imgur.com/3rB4vW1.jpg",
     "no":4,
     "author": "Ephantus Muthunga",
     "city": "Nairobi",
@@ -37,7 +37,7 @@
     "content": "Fun",
     "question": "Who has skills to compete with me in playing Fifa 17?"
     },{
-    "profile": "assets/images/Al.JPG",
+    "profile": "http://i.imgur.com/q2J2os5.jpg",
     "no": 5,
     "author": "Al Aganya",
     "city": "Nairobi",
@@ -46,7 +46,7 @@
     "content": "Entertainment/Fun",
     "question": "Who knows how to crack Mortal Kombat XL?"
     },{
-    "profile": "assets/images/Kenneth.JPG",
+    "profile": "http://i.imgur.com/kyOFsCk.jpg",
     "no":6,
     "author": "Kenneth Gitere",
     "city": "Nairobi",
@@ -56,7 +56,7 @@
     "question": "Are our lives been in simulation?"
   }],
   "reviews": [{
-    "profile": "assets/images/Dickson.JPG",
+    "profile": "http://i.imgur.com/RDT6NGD.jpg",
     "author": "Dickson Muli",
     "city": "Nairobi",
     "content": "Fun",
@@ -71,5 +71,29 @@
     "rating": 8,
     "answer": "Good question Alex. Opportunities don't happen, You create them.",
     "image": "http://statusmind.com/images/2014/01/Life-Facebook-Status-30566-statusmind.com.jpg"
+  },{
+    "profile": "http://i.imgur.com/JrZCEPA.jpg",
+    "author": "Steve Kiarie",
+    "city": "Nairobi",
+    "content": "Fun",
+    "rating": 9,
+    "answer": "I am the best!",
+    "image": "http://givemesport.azureedge.net/images/17/03/30/d004b5aaf4cda6fe4f0767637c871cba/690.jpg"
+  },{
+    "profile": "http://i.imgur.com/560PoXY.jpg",
+    "author": "Brian Kiragu",
+    "city": "Nairobi",
+    "content": "Fun",
+    "rating": 8,
+    "answer": "Woah!",
+    "image": "https://img.memesuper.com/69ccb5e5bafc543b5bfd621b3a7e90d4_shocked-meme-face-i7-shocked-meme_197-200.png"
+  },{
+    "profile": "http://www.shockmansion.com/wp-content/myimages/2016/07/Messi-shocked.jpg",
+    "author": "Lionel Messi",
+    "city": "Barcelona",
+    "content": "Fun",
+    "rating": 5,
+    "answer": "Estoy muy sorprendida!",
+    "image": "https://s-media-cache-ak0.pinimg.com/736x/2c/38/08/2c3808304881cac61b61fb2b5aeef4cc.jpg"
   }]
 }
