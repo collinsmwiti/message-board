@@ -8,6 +8,12 @@ export default Ember.Component.extend({
     },
     imageHide: function() {
       this.set('isImageShowing', false);
+    },
+    likeMessage(message) {
+      this.sendAction('likeMessage', message);
+    },
+    dislikeMessage(message) {
+      this.sendAction('dislikeMessage', message);
     }
   }
 });

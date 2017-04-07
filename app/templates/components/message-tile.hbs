@@ -1,11 +1,16 @@
 <div class="row d-flex justify-content-center">
   <div class="message">
-      <li style="list-style-type:none"><img class="profile-pic" src="{{message.profile}}"> <br> {{#link-to 'message' message.no}} <br> Author: {{message.author}} <br> City: {{message.city}} <br> Additional Quote: {{message.favourite_quote}} <br> content: {{message.content}} <br> Question: {{message.question}} {{/link-to}}<br><br>
-        {{#if isImageShowing}}
-        <p><img class="image1" src={{message.image}} alt={{message.question}} {{action 'imageHide'}}></p>
-        {{else}}
+    <li style="list-style-type:none"><img class="profile-pic" src="{{message.profile}}"> <br>
+      {{#link-to 'message' message.id}} <br> Author: {{message.author}} <br> City: {{message.city}} <br> Additional Quote: {{message.favourite_quote}} <br> content: {{message.content}} <br> Question: {{message.question}} {{/link-to}}<br><br>
+      {{#if isImageShowing}}
+        <p><img class="image1" src= {{message.image}} alt= {{message.question}} {{action 'imageHide'}}></p>
+      {{else}}
         <button {{action 'imageShow'}}>Press for display</button>
-        {{/if}}
-      </li>
+        <button {{action 'likeMessage' message}} type="button" id="testBtn" class="btn btn-success glyphicon glyphicon-thumbs-up" data-loading-text=" ... ">
+    {{message.likes}}</button>
+        <button {{action 'dislikeMessage' message}} type="button" id="testBtnDown" class="btn btn-danger glyphicon glyphicon-thumbs-down" data-loading-text=" ... ">
+    {{message.dislikes}}</button>
+    {{/if}}
+    </li>
   </div>
 </div>
