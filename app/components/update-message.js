@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+//exporting update function for messages
 export default Ember.Component.extend({
   updateMessageForm: false,
   actions: {
