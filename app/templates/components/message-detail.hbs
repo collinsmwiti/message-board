@@ -1,14 +1,15 @@
+<!--Adding content to display message-detail-->
 <div class="reviews">
 City: {{message.city}} <br> Additional quote: {{message.favourite_quote}} <br> Content: {{message.content}} <br> Question: {{message.question}}
 <br>
 <p><img class="image1" src={{message.image}} type={{message.question}}></p>
-
+<!--Reviews display-->
 <h2>Reviews</h2>
 <ul>
   {{#each message.reviews as |review|}}
     {{review-tile review=review destroyReview="destroyReview"}}
   {{/each}}
 </ul>
-
+<!--Adding button delete-->
 <button {{action 'delete' message}}>Delete</button>
 </div>
