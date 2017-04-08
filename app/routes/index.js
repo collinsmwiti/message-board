@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+//exporting actions of saving messages and displaying likes and dislikes at index page
 export default Ember.Route.extend({
   model() {
     return Ember.RSVP.hash({
