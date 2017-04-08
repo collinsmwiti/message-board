@@ -1,6 +1,6 @@
 { "messages": [{
   "profile": "http://i.imgur.com/3GrShJo.jpg",
-  "no": 1,
+  "no": 0,
   "author": "Collins Mutuma",
   "city": "Nairobi",
   "favourite_quote": "Train hard or remain the same.",
@@ -10,7 +10,7 @@
 
   }, {
     "profile": "http://i.imgur.com/Fh5JkaL.jpg",
-    "no": 2,
+    "no": 1,
     "author": "Alex Kinuthia",
     "city": "Nairobi",
     "favourite_quote": "In order to succeed, we must first believe that we can.",
@@ -20,7 +20,7 @@
 
   }, {
     "profile": "http://i.imgur.com/TveilKb.jpg",
-    "no":3,
+    "no":2,
     "author": "Brian Marete",
     "city": "Nairobi",
     "favourite_quote": "If life becomes hard on you, don't say WHY ME, but say TRY ME.",
@@ -29,7 +29,7 @@
     "question": "Which is the best latest series?"
     },{
     "profile": "http://i.imgur.com/3rB4vW1.jpg",
-    "no":4,
+    "no":3,
     "author": "Ephantus Muthunga",
     "city": "Nairobi",
     "favourite_quote": "Wake up with determination, go to bed with satisfaction.",
@@ -38,7 +38,7 @@
     "question": "Who has skills to compete with me in playing Fifa 17?"
     },{
     "profile": "http://i.imgur.com/q2J2os5.jpg",
-    "no": 5,
+    "no": 4,
     "author": "Al Aganya",
     "city": "Nairobi",
     "favourite_quote": "Simply, be the best.",
@@ -47,7 +47,7 @@
     "question": "Who knows how to crack Mortal Kombat XL?"
     },{
     "profile": "http://i.imgur.com/kyOFsCk.jpg",
-    "no":6,
+    "no":5,
     "author": "Kenneth Gitere",
     "city": "Nairobi",
     "favourite_quote": "Goals and motivation equals success.",
