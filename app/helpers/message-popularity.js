@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+//exporting message popularity 
 export function messagePopularity(params /*, hash*/ ) {
   var message = params[0];
 
