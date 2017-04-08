@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+//exporting behavior of adding new messages and saving them
 export default Ember.Component.extend({
   addNewMessage: false,
   actions: {
