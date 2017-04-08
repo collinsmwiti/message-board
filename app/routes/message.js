@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+//exporting functionality of the route message.js
 export default Ember.Route.extend({
   model(params) {
     return this.store.findRecord('message', params.message_id);
