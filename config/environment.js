@@ -16,7 +16,7 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    /*Adding firebase*/
     firebase: {
       apiKey: "AIzaSyDNiaMqiLFvcBUHl9IgnHF-GpEFpdjwwJg",
       authDomain: "message-board-14028.firebaseapp.com",
