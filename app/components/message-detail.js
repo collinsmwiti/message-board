@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+//exporting the delete function of the message and review
 export default Ember.Component.extend({
   actions: {
     delete(message) {
