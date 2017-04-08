@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+//exporting delete function of reviews
 export default Ember.Component.extend({
   actions: {
     delete(review) {
