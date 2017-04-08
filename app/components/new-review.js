@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+//exporting behavior of adding new reviews and saving them
 export default Ember.Component.extend({
   addNewReview: false,
   actions: {
