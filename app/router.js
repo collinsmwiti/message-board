@@ -5,6 +5,7 @@ const Router = Ember.Router.extend({
   location: config.locationType,
 });
 
+//For nested route
 Router.map(function() {
   this.route('about');
   this.route('contact');
